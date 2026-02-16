@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+
+“””
+    Program name: divide.py
+    Purpose: Perform division.
+    Author:
+    Date:
+    Version: 1.0
+“””
+
+# Greet user.
+first_name = input(“Enter first name: “)
+print( f“Welcome {first_name}" )
+
+# Prompt for operands.
+dividend = float(input(“Enter dividend: “))
+divisor  = float(input(“Enter non-zero divisor: “))
+
+# Divide operands.
+quotient = dividend / divisor
+
+# Display the results of the divison.
+print( f“Quotient is: {quotient}” )
+
+# Display closing message.
+print(“Thank you.”)
